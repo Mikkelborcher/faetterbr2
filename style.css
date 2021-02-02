@@ -1,0 +1,57 @@
+/* Base Styles */
+body {
+  background-image: url("assets/baggrund.png");
+  background-color: #cccccc;
+  max-width: 1920px;
+  color: #2b2a28;
+  margin: 1em;
+  font-family: "Yantramanav", sans-serif;
+}
+
+/* Styling */
+
+.frontpage {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.fætterbrlogo {
+  margin-left: auto;
+  margin-right: auto;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.låsoppil {
+  max-width: 60em;
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.låsopkant {
+  max-width: 60em;
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.låsopbar {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60em;
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.vælgspil {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.spil {
+  margin-left: auto;
+  margin-right: auto;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
