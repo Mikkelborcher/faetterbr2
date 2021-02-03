@@ -8,7 +8,7 @@ body {
   font-family: "Yantramanav", sans-serif;
 }
 
-/* Styling */
+/* Styling frontpage */
 
 .frontpage {
   display: grid;
@@ -24,13 +24,17 @@ body {
 }
 
 .låsoppil {
-  max-width: 60em;
+  max-width: 100px;
+  margin-top: 195px;
+  margin-left: 120px;
   grid-column-start: 2;
   grid-row-start: 3;
 }
 
 .låsopkant {
-  max-width: 60em;
+  max-width: 150px;
+  margin-top: 159px;
+  margin-left: 95px;
   grid-column-start: 2;
   grid-row-start: 3;
 }
@@ -38,10 +42,14 @@ body {
 .låsopbar {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 150px;
   max-width: 60em;
   grid-column-start: 2;
   grid-row-start: 3;
+  opacity: 0.5;
 }
+
+/* Styling spil side */
 
 .vælgspil {
   display: grid;
@@ -49,9 +57,10 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.spil {
+.valgtspil {
   margin-left: auto;
   margin-right: auto;
   grid-column-start: 2;
   grid-row-start: 2;
+  max-width: 100%;
 }
