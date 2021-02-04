@@ -10,41 +10,52 @@ body {
 
 .frontpage {
   display: grid;
-  grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
 .fætterbrlogo {
   margin-left: auto;
   margin-right: auto;
-  grid-column-start: 2;
-  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-start: 1/4;
 }
 
-.låsoppil {
-  max-width: 100px;
-  margin-top: 195px;
-  margin-left: 120px;
-  grid-column-start: 2;
-  grid-row-start: 3;
-}
-
-.låsopkant {
-  max-width: 150px;
-  margin-top: 159px;
-  margin-left: 95px;
-  grid-column-start: 2;
-  grid-row-start: 3;
-}
-
-.låsopbar {
+.bartest {
+  background-color: #ffffff;
+  height: 8em;
+  width: 60em;
+  border: 5px solid black;
+  border-radius: 100px;
+  grid-row: 3;
+  grid-column: 1;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 150px;
-  max-width: 60em;
-  grid-column-start: 2;
-  grid-row-start: 3;
-  opacity: 0.5;
+  margin-top: auto;
+  margin-bottom: auto;
+  opacity: 0.6;
+}
+
+.låsopknap {
+  background-color: #ffffff;
+  height: 6em;
+  width: 6em;
+  border: 5px solid black;
+  border-radius: 50px;
+  grid-row: 3;
+  grid-column: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 29em;
+  margin-right: auto;
+}
+.låsop {
+  grid-row: 3;
+  grid-column: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 470px;
+  margin-right: auto;
 }
 
 /* Styling vælg spil */
